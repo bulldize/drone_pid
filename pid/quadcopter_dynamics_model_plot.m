@@ -9,9 +9,9 @@ ModelParam_I_zz = 0.0366;      % 四旋翼z轴转动惯量(kg·m^2)
 ModelParam_J_RP = 0.0001287;   % 整个电机转子和螺旋桨绕转轴的总转动惯量(kg·m^2)
 ModelInit_Pos_z = -100;        % 四旋翼初始高度
 input1 = 557.142;
-input2 = 547.142;
+input2 = 557.142;
 input3 = 557.142;
-input4 = 517.142;
+input4 = 557.142;
 sim("Quadcopter_Dynamics_Model");
 plot3(simout.Data(:,1),simout.Data(:,2),simout.Data(:,3))
 
